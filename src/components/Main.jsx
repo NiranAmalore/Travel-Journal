@@ -6,7 +6,7 @@ export default function Main(props){
             <img className="entry--img " src={`${props.image}`}/>
             <div className="entry-details">
                 <div className="entry-location-stats">
-                    <img className="location-icon" src="./src/images/location-icon.png"/>
+                    <img className="location-icon" src="../images/location-icon.png"/>
                     <p className="section--location">{props.location}</p>
                     <p><a className="section--map-location" href={`${props.googleMapsUrl}`} target="_blank">View on Google Maps</a></p>
                 </div>
